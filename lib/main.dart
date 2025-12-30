@@ -1,3 +1,4 @@
+import 'package:e_mart/app/feature/homepage/presentation/view/qr_code.dart';
 import 'package:e_mart/app/feature/homepage/presentation/widgets/home_screen_widget/top_header.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TopHeader(),
+      home: QrCode(),
     );
   }
 }
